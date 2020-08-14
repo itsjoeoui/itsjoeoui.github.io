@@ -14,6 +14,8 @@ hugo -t anatole -d "${BASEDIR}/master/"
 
 cd "${BASEDIR}/master/"
 
+git checkout master
+
 git add .
 
 msg="[JoeouiCI]: Deploy site $(date)"
