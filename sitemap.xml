@@ -3,11 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://itsjoeoui.com/categories/</loc>
+    <loc>https://itsjoeoui.com/archives/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://itsjoeoui.com/about/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://itsjoeoui.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://itsjoeoui.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://itsjoeoui.com/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>https://itsjoeoui.com/post/</loc>
   </url>
   
   <url>
