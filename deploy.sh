@@ -10,7 +10,7 @@ echo "${BASEDIR}"
 
 cd source/
 
-hugo -t hugo-coder -d "${BASEDIR}/master/"
+hugo -t anatole -d "${BASEDIR}/master/"
 
 cd "${BASEDIR}/master/"
 

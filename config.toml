@@ -1,75 +1,79 @@
-baseurl = "https://itsjoeoui.com"
-title = "itsjoeoui"
-theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
+baseURL = "https://itsjoeoui.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "itsjoeoui | Home"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
 
-paginate = 20
-canonifyurls = true
+# Enable Disqus
+#disqusShortname = ""
 
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-disqusShortname = "yourdiscussshortname"
+# Google Analytics
+#googleAnalytics = "UA-123-45"
 
 [params]
-    author = "itsjoeoui"
-    info = "Welcome to my website:)"
-    description = ""
-    keywords = "blog,developer,personal"
-    avatarurl = "https://avatars0.githubusercontent.com/u/25695219?v=4"
+title = "itsjoeoui"
+author = "itsjoeoui"
+description = "Welcome to my website :)"
+profilePicture = "https://avatars0.githubusercontent.com/u/25695219?v=4"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
 
-    footercontent = ""
+## Social links
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/itsjoeoui"
 
-    hidecredits = true
-    hidecopyright = false
+[[params.socialIcons]]
+icon = "fa-telegram"
+title = "Telegram"
+url = "https://t.me/itsjoeoui"
 
-    rtl = false
+[[params.socialIcons]]
+icon = "fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/itsjoeoui"
 
-    math = true
-    custom_css = ["css/custom.css"]
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/itsjoeoui"
 
-# Social links
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/itsjoeoui/"
-[[params.social]]
-    name = "Telegram"
-    icon = "fab fa-telegram fa-2x"
-    weight = 2
-    url = "https://t.me/itsjoeoui/"
-[[params.social]]
-    name = "Instagram"
-    icon = "fab fa-instagram fa-2x"
-    weight = 3
-    url = "https://instagram.com/itsjoeoui/"
-[[params.social]]
-    name = "Email"
-    icon = "fab fa-linkedin fa-2x"
-    weight = 4
-    url = "https://www.linkedin.com/in/xiaowei-yu-1625441a0/"
-[[params.social]]
-    name = "Email"
-    icon = "fas fa-envelope fa-2x"
-    weight = 5
-    url = "mailto:idkwhoiam@itsjoeoui.com"
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:idkwhoiam@itsjoeoui.com"
 
-# Menu links
-[[menu.main]]
-    name = "Team #PixelExperience"
-    weight = 1
-    url = "https://download.pixelexperience.org/"
-[[menu.main]]
-    name = "Blog"
-    weight = 2
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 3
-    url = "/about/"
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
