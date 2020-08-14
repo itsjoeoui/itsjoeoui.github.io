@@ -8,7 +8,7 @@ enableEmoji = true
 enableRobotsTXT = true
 
 # Enable Disqus
-#disqusShortname = ""
+#disqusShortname = "itsjoeoui"
 
 # Google Analytics
 #googleAnalytics = "UA-123-45"
@@ -74,7 +74,13 @@ url = "mailto:idkwhoiam@itsjoeoui.com"
   url = "/post/"
 
   [[menu.main]]
-  name = "About"
+  name = "PixelExperience"
   weight = 300
+  identifier = "pixelexperience"
+  url = "https://download.pixelexperience.org/team/itsjoeoui"
+
+  [[menu.main]]
+  name = "About"
+  weight = 400
   identifier = "about"
   url = "/about/"
