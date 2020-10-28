@@ -10,19 +10,17 @@ author = "Xiaowei Yu"
 
 This is Xiaowei/Joey, and I'm popularly known around the internet as **itsjoeoui**.
 
-I'm a 17 years old college student studying **Pure and Applied science**.
+I'm 17 years old, and I'm studying **Pure and Applied science** at Dawson.
 
-I'm also a core team member at **[@PixelExperience](https://github.com/PixelExperience)** ([Our website](https://download.pixelexperience.org/))
+I'm also a part of team **[@PixelExperience](https://github.com/PixelExperience)** ([Our website](https://download.pixelexperience.org/))
 
-I like **Android**. However, not going to lie, **iOS** is still my favourate xD.
+**Android** is awesome. However, I still prefer **iOS** for day-to-day life.
 
-**Python** is my go-to programming language, and sometimes I use **Java** as well.
+**Python** is my go-to programming language, and I know some **Java** as well.
 
-Currently, I'm learning **Django** so I can fill the gaps in my frontend knowledge.
+I also have plans to learn **C/C++** in the future for Linux kernel development.
 
-I also have plans to learn **C/C++** in the future for kernel development purpose.
-
-I have been a **macOS** user for years, and I use PD for **Linux/Windows** VM.
+I have been a **macOS** user for years, and I'm not a fan of **Windows**, sorry Windows users.
 
 **VSCode** is my primary choice for code editor, and **VIM** for command-line interface.
 
