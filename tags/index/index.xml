@@ -5,11 +5,7 @@
     <link>https://itsjoeoui.com/tags/index/</link>
     <description>Recent content in index on itsjoeoui | Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://itsjoeoui.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://itsjoeoui.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
       <link>https://itsjoeoui.com/post/</link>
