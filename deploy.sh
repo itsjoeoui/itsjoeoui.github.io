@@ -20,7 +20,7 @@ git checkout master
 
 git add .
 
-msg="[JoeouiCI]: Deploy site $(date)"
+msg="[JoeyCI]: Deploy site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
