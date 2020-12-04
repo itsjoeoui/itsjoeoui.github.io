@@ -10,6 +10,8 @@ echo "${BASEDIR}"
 
 cd source/
 
+git submodule update --remote --merge
+
 hugo -t anatole -d "${BASEDIR}/master/"
 
 cd "${BASEDIR}/master/"
