@@ -12,6 +12,12 @@ cd source/
 
 git submodule update --remote --merge
 
+git add .
+
+git commit -s -m "[JoeyCI]: Update source"
+
+git push origin source
+
 hugo -t anatole -d "${BASEDIR}/master/"
 
 cd "${BASEDIR}/master/"
@@ -24,8 +30,6 @@ msg="[JoeyCI]: Deploy site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
-git commit -m "$msg"
+git commit -s -m "$msg"
 
 git push origin master
-
-cd "${BASEDIR}/source/"
