@@ -81,13 +81,7 @@ url = "mailto:idkwhoiam@itsjoeoui.com"
   url = "https://download.pixelexperience.org/team/itsjoeoui"
  
   [[menu.main]]
-  name = "Channel"
-  weight = 400
-  identifier = "channel"
-  url = "https://t.me/s/itsjoeouichannel"
-
-  [[menu.main]]
   name = "About"
-  weight = 500
+  weight = 400
   identifier = "about"
   url = "/about/"
