@@ -79,9 +79,15 @@ url = "mailto:idkwhoiam@itsjoeoui.com"
   weight = 300
   identifier = "pixelexperience"
   url = "https://download.pixelexperience.org/team/itsjoeoui"
- 
+
+  [[menu.main]]
+  name = "Corona"
+  weight = 400
+  identifier = "corona"
+  url = "https://corona.itsjoeoui.com"
+
   [[menu.main]]
   name = "About"
-  weight = 400
+  weight = 500
   identifier = "about"
   url = "/about/"
