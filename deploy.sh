@@ -12,13 +12,13 @@ cd source/
 
 git submodule update --remote --merge
 
+hugo -t anatole -d "${BASEDIR}/master/"
+
 git add .
 
 git commit -s -m "[JoeyCI]: Update source"
 
 git push origin source
-
-hugo -t anatole -d "${BASEDIR}/master/"
 
 cd "${BASEDIR}/master/"
 
