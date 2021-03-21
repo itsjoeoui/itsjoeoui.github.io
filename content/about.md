@@ -1,10 +1,10 @@
-+++
-title = "$whoami"
-description = "About me"
-date = "2021-03-21"
-author = "Joey Yu"
-ShowToc = false
-+++
+---
+title: "$whoami"
+description: "About me"
+date: "2021-03-21"
+author: "Joey Yu"
+ShowToc: false
+---
 
 ### Hello there! 👋
 
