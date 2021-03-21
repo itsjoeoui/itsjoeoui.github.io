@@ -12,7 +12,7 @@ cd source/
 
 git submodule update --remote --merge
 
-hugo -t anatole -d "${BASEDIR}/master/"
+hugo -t PaperMod -d "${BASEDIR}/master/"
 
 git add .
 
