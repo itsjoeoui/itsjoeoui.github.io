@@ -21,12 +21,12 @@ languages:
 
         menu:
             main:              
-                - name: About
-                  url: about
-                  weight: 1
                 - name: Projects
                   url: projects
-                  weight: 5  
+                  weight: 1
+                - name: About
+                  url: about
+                  weight: 2
 
 outputs:
     home:
@@ -36,8 +36,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "Joey's Blog - itsjoeoui"
+    author: Joey Yu
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
