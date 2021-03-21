@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>itsjoeoui | Home</title>
+    <title>Joey&#39;s Blog</title>
     <link>https://itsjoeoui.com/</link>
-    <description>Recent content on itsjoeoui | Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://itsjoeoui.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://itsjoeoui.com/archives/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://itsjoeoui.com/archives/</guid>
-      <description></description>
-    </item>
-    
+    <description>Recent content on Joey&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://itsjoeoui.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>$whoami</title>
       <link>https://itsjoeoui.com/about/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://itsjoeoui.com/about/</guid>
-      <description>Hello there! 👋 This is Xiaowei/Joey, and I&amp;rsquo;m popularly known around the internet as itsjoeoui.</description>
+      <description>Hello there! 👋 This is Xiaowei/Joey, and I&amp;rsquo;m popularly known around the internet as itsjoeoui.
+I&amp;rsquo;m a 1st-year student at Dawson College, Enriched Pure and Applied Science program.
+I work on Open-Source Projects. You can check out the Projects page for more details.
+Python is my go-to programming language, and I know a bit of Java and Golang as well.
+I have an interested in Web Applications, Data Science and Machine Learning.</description>
+    </item>
+    
+    <item>
+      <title>My Projects</title>
+      <link>https://itsjoeoui.com/projects/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsjoeoui.com/projects/</guid>
+      <description></description>
     </item>
     
   </channel>
