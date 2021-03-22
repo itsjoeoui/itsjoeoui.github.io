@@ -11,10 +11,10 @@
 <meta name="description" content="Joey&#39;s Blog - itsjoeoui">
 <meta name="author" content="Joey Yu">
 <link rel="canonical" href="https://itsjoeoui.com/series/" />
-<link href="/assets/css/stylesheet.min.f45542b39fa3d45a107a3b6c5defd87315ed007f967c04d8a2133e32854f9edf.css" integrity="sha256-9FVCs5&#43;j1FoQejtsXe/YcxXtAH&#43;WfATYohM&#43;MoVPnt8=" rel="preload stylesheet"
+<link href="/assets/css/stylesheet.min.746a86b58bb2b052b5e4df8216510494f04f81e62c08d626150c26c69ca929da.css" integrity="sha256-dGqGtYuysFK15N&#43;CFlEElPBPgeYsCNYmFQwmxpypKdo=" rel="preload stylesheet"
     as="style">
 
-<link rel="icon" href="https://itsjoeoui.com/favicon.ico">
+<link rel="icon" href="https://avatars0.githubusercontent.com/u/25695219?v=4">
 <link rel="icon" type="image/png" sizes="16x16" href="https://itsjoeoui.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://itsjoeoui.com/favicon-32x32.png">
 <link rel="apple-touch-icon" href="https://itsjoeoui.com/apple-touch-icon.png">
@@ -73,13 +73,21 @@
             .list {
                 background: var(--theme);
             }
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
         }
     </style>
 </noscript>
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://itsjoeoui.com" accesskey="h" title="Joey&#39;s Blog (Alt + H)">Joey&#39;s Blog</a>
+            <a href="https://itsjoeoui.com" accesskey="h" title="Home (Alt + H)">
+                <img src="https://avatars0.githubusercontent.com/u/25695219?v=4" alt="logo" aria-label="logo"
+                    height="35">Home</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
