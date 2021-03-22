@@ -84,17 +84,17 @@ params:
         - name: email
           url: "mailto:itsjoeoui@gmail.com"
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
+    label:
+        text: "Home"
+        icon: "https://avatars0.githubusercontent.com/u/25695219?v=4"
+        iconHeight: 35
 
     # analytics:
     #     google:
     #         SiteVerificationTag: "XYZabc"
 
-    # assets:
-    #     favicon: "<link / abs url>"
+    assets:
+        favicon: "https://avatars0.githubusercontent.com/u/25695219?v=4"
     #     favicon16x16: "<link / abs url>"
     #     favicon32x32: "<link / abs url>"
     #     apple_touch_icon: "<link / abs url>"
