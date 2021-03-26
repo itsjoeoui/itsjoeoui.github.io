@@ -4,15 +4,19 @@
     <title>Posts on Joey&#39;s Blog</title>
     <link>https://itsjoeoui.com/posts/</link>
     <description>Recent content in Posts on Joey&#39;s Blog</description>
+    <image>
+      <url>https://itsjoeoui.com/papermod-cover.png</url>
+      <link>https://itsjoeoui.com/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://itsjoeoui.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>#NeverStopLearning</title>
-      <link>https://itsjoeoui.com/posts/init/</link>
+      <title>My Question Box</title>
+      <link>https://itsjoeoui.com/posts/my_question_box/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://itsjoeoui.com/posts/init/</guid>
-      <description></description>
+      <guid>https://itsjoeoui.com/posts/my_question_box/</guid>
+      <description>Ask me anything! (｡･∀･)ﾉﾞ 👉 Click here 👈 </description>
     </item>
     
   </channel>

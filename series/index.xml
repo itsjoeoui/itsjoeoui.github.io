@@ -4,6 +4,10 @@
     <title>Series on Joey&#39;s Blog</title>
     <link>https://itsjoeoui.com/series/</link>
     <description>Recent content in Series on Joey&#39;s Blog</description>
+    <image>
+      <url>https://itsjoeoui.com/papermod-cover.png</url>
+      <link>https://itsjoeoui.com/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://itsjoeoui.com/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

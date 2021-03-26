@@ -11,7 +11,7 @@
 <meta name="description" content="Joey&#39;s Blog - itsjoeoui">
 <meta name="author" content="Joey Yu">
 <link rel="canonical" href="https://itsjoeoui.com/posts/" />
-<link href="/assets/css/stylesheet.min.746a86b58bb2b052b5e4df8216510494f04f81e62c08d626150c26c69ca929da.css" integrity="sha256-dGqGtYuysFK15N&#43;CFlEElPBPgeYsCNYmFQwmxpypKdo=" rel="preload stylesheet"
+<link href="/assets/css/stylesheet.min.642e2a0657439d758aca2aedf3ef6ad1415d2d970562c281dd262c6aad4686b1.css" integrity="sha256-ZC4qBldDnXWKyirt8&#43;9q0UFdLZcFYsKB3SYsaq1GhrE=" rel="preload stylesheet"
     as="style">
 
 <link rel="icon" href="https://avatars0.githubusercontent.com/u/25695219?v=4">
@@ -21,16 +21,15 @@
 <link rel="mask-icon" href="https://itsjoeoui.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.81.0" />
+<meta name="generator" content="Hugo 0.82.0" />
 <link rel="alternate" type="application/rss&#43;xml" href="https://itsjoeoui.com/posts/index.xml">
 
 
 <meta property="og:title" content="Posts" />
 <meta property="og:description" content="Joey&#39;s Blog - itsjoeoui" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://itsjoeoui.com/posts/" />
-<meta property="og:image" content="https://itsjoeoui.com/papermod-cover.png"/>
-<meta property="og:updated_time" content="2021-03-21T00:00:00+00:00" />
+<meta property="og:url" content="https://itsjoeoui.com/posts/" /><meta property="og:image" content="https://itsjoeoui.com/papermod-cover.png"/>
+
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://itsjoeoui.com/papermod-cover.png"/>
 
@@ -75,6 +74,9 @@
         .top-link {
             display: none;
         }
+
+    </style>
+    <style>
         @media (prefers-color-scheme: dark) {
             :root {
                 --theme: #1d1e20;
@@ -87,17 +89,21 @@
                 --code-bg: #37383e;
                 --border: #333;
             }
+
             .list {
                 background: var(--theme);
             }
+
             .list:not(.dark)::-webkit-scrollbar-track {
                 background: 0 0;
             }
+
             .list:not(.dark)::-webkit-scrollbar-thumb {
                 border-color: var(--theme);
             }
         }
     </style>
+
 </noscript>
 <header class="header">
     <nav class="nav">
@@ -162,17 +168,17 @@
 
   <header class="entry-header">
     <h2>
-      #NeverStopLearning
+      My Question Box
     </h2>
   </header>
   <section class="entry-content">
-    <p></p>
+    <p>Ask me anything! (｡･∀･)ﾉﾞ 👉 Click here 👈 </p>
   </section>
   <footer class="entry-footer">
 
-March 21, 2021&nbsp;·&nbsp;0 min&nbsp;·&nbsp;Joey Yu
+March 21, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Joey Yu
 </footer>
-  <a class="entry-link" aria-label="post link to #NeverStopLearning" href="https://itsjoeoui.com/posts/init/"></a>
+  <a class="entry-link" aria-label="post link to My Question Box" href="https://itsjoeoui.com/posts/my_question_box/"></a>
 </article>
 
     </main><footer class="footer">
@@ -198,6 +204,11 @@ March 21, 2021&nbsp;·&nbsp;0 min&nbsp;·&nbsp;Joey Yu
             document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
         }
     }
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
@@ -216,6 +227,9 @@ March 21, 2021&nbsp;·&nbsp;0 min&nbsp;·&nbsp;Joey Yu
             }
         });
     });
+
+</script>
+<script>
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
         if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
@@ -226,10 +240,6 @@ March 21, 2021&nbsp;·&nbsp;0 min&nbsp;·&nbsp;Joey Yu
             mybutton.style.opacity = "0";
         }
     };
-
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
 
 </script>
 <script>
