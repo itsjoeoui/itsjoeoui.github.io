@@ -5,6 +5,14 @@ date: "2021-03-21"
 author: "Joey Yu"
 ---
 
+## Tree Hugger - Improving Mental Health by Embracing Nature (WIP)
+
+**GITHUB**: Comming soon...
+
+This is an application that allows users to leave anonymous messages virtually at specific tree locations when they’re within range. Other users will be able to view these messages and reply if they wish. This is designed to provide a safe space for teens and young adults to express themselves without worrying about being judged. By doing so in an outdoor area, it also encourages people to go outside, which can be beneficial to both their physical and mental health.
+
+---
+
 ## Discord Bot
 
 **GITHUB**: https://github.com/itsjoeoui/pydiscord
