@@ -10,7 +10,7 @@
 <meta name="description" content="About me">
 <meta name="author" content="Joey Yu">
 <link rel="canonical" href="https://itsjoeoui.com/about/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.84cc6e7cd97516a4d4e877c6bebe5a4529afdf61f4d009e2c8bbec3a876fff4e.css" integrity="sha256-hMxufNl1FqTU6HfGvr5aRSmv32H00AniyLvsOodv/04=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.bc435bed1061be2618667408894ae8a5d27c970831ce57f287e42f911918fcbc.css" integrity="sha256-vENb7RBhviYYZnQIiUropdJ8lwgxzlfyh&#43;QvkRkY/Lw=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://avatars0.githubusercontent.com/u/25695219?v=4">
@@ -355,7 +355,17 @@
             selection.removeRange(range);
         });
 
-        container.appendChild(copybutton);
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
     });
 </script>
 </body>
