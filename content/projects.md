@@ -5,7 +5,7 @@ date: "2021-03-21"
 author: "Joey Yu"
 ---
 
-## Tree Hugger - A Social App for Reconnecting With Nature (WIP)
+## TreeHugger - A Social App for Reconnecting With Nature (WIP)
 
 **GITHUB**: https://github.com/space-treehugger
 
@@ -44,16 +44,13 @@ Project for the McGill Physics Hackathon 2020.
 
 Winner of the P4 Momentum Labs coding challenge.
 
-<details>
-<summary>The Heat Rover challenge:</summary>
+The Heat Rover challenge:
 
 1. A warm up problem!
    The robotics environment represents a uniform, square 2D plate of unknown dimensions at a fixed time. A heat source was located at the centre of the plate. Hackers were asked to use the ultrasonic sensor to measure distances and the temperature sensor to make a heat map of the plate using the robot as a rover. There are more efficient ways to do this in the real world of course, but they are not as fun!
 
 2. Now for some #physics​!
    Using the heat map made from the rover data as initial conditions for the 2D plate, and assuming the plate is isolated with the source removed, hackers were asked to simulate the heat transfer in the plate.
-
-</details>
 
 ---
 
