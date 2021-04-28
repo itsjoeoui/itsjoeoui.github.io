@@ -82,7 +82,7 @@ params:
         - name: telegram
           url: "https://t.me/itsjoeoui"
         - name: email
-          url: "mailto:itsjoeoui@gmail.com"
+          url: "mailto:joey@itsjoeoui.com"
 
     label:
         text: "Home"
