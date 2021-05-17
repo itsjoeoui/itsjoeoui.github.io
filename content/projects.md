@@ -1,6 +1,6 @@
 ---
 title: "My Projects"
-description: "#NeverStopLearning"
+description: "Learning is fun."
 date: "2021-03-21"
 author: "Joey Yu"
 ---
