@@ -8,8 +8,7 @@
       <url>https://itsjoeoui.com/papermod-cover.png</url>
       <link>https://itsjoeoui.com/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://itsjoeoui.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://itsjoeoui.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>$whoami</title>
       <link>https://itsjoeoui.com/about/</link>
@@ -26,15 +25,6 @@
       
       <guid>https://itsjoeoui.com/projects/</guid>
       <description>Learning is fun.</description>
-    </item>
-    
-    <item>
-      <title>My Question Box</title>
-      <link>https://itsjoeoui.com/posts/my_question_box/</link>
-      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://itsjoeoui.com/posts/my_question_box/</guid>
-      <description>Ask me anything! (｡･∀･)ﾉﾞ 👉 Click here 👈 </description>
     </item>
     
   </channel>
