@@ -77,14 +77,14 @@ params:
           url: "https://github.com/itsjoeoui"
         - name: linkedin
           url: "https://www.linkedin.com/in/itsjoeoui" 
-        - name: twitter
-          url: "https://twitter.com/itsjoeoui"
         - name: instagram
           url: "https://instagram.com/itsjoeoui"
         - name: snapchat
           url: "https://www.snapchat.com/add/itsjoeoui"
         - name: telegram
           url: "https://t.me/itsjoeoui"
+        - name: twitter
+          url: "https://twitter.com/itsjoeoui"
         - name: email
           url: "mailto:joey@itsjoeoui.com"
 
