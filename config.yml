@@ -76,11 +76,11 @@ params:
         - name: github
           url: "https://github.com/itsjoeoui"
         - name: linkedin
-          url: "https://www.linkedin.com/in/itsjoeoui" 
+          url: "https://linkedin.com/in/itsjoeoui" 
         - name: instagram
           url: "https://instagram.com/itsjoeoui"
         - name: snapchat
-          url: "https://www.snapchat.com/add/itsjoeoui"
+          url: "https://snapchat.com/add/itsjoeoui"
         - name: twitter
           url: "https://twitter.com/itsjoeoui"
         - name: telegram
