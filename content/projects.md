@@ -1,11 +1,11 @@
 ---
 title: "My Projects"
 description: "Learning is fun."
-date: "2021-03-21"
+date: "2021-09-09"
 author: "Joey Yu"
 ---
 
-## TreeHugger - A Social App for Reconnecting With Nature (WIP)
+## TreeHugger - A Social App for Reconnecting With Nature (Prototype)
 
 **GITHUB**: https://github.com/space-treehugger
 
@@ -80,4 +80,4 @@ Our mission is to offer the maximum possible stability and security, along with 
 
 ---
 
-> Thanks to everyone who followed me on [GitHub](https://github.com/itsjoeoui) :) #NeverStopLearning
+> #NeverStopLearning

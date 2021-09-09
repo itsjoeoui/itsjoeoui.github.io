@@ -11,117 +11,109 @@ buildExpired: false
 # googleAnalytics: UA-123-45
 
 minify:
-    disableXML: true
-    # minifyOutput: true
+  disableXML: true
+  # minifyOutput: true
 
 languages:
-    en:
-        languageName: "English"
-        weight: 1
+  en:
+    languageName: "English"
+    weight: 1
 
-        menu:
-            main:              
-                - name: Projects
-                  url: projects
-                  weight: 1
-                - name: About
-                  url: about
-                  weight: 2
+    menu:
+      main:
+        - name: Projects
+          url: projects
+          weight: 1
+        - name: About
+          url: about
+          weight: 2
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Joey's Blog - itsjoeoui"
-    author: Joey Yu
-    # author: ["Me", "You"] # multiple authors
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Joey's Blog - itsjoeoui"
+  author: Joey Yu
+  # author: ["Me", "You"] # multiple authors
 
-    defaultTheme: auto
-    # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowToc: true
-    # comments: false
-    images: ["papermod-cover.png"]
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+  # comments: false
+  images: ["papermod-cover.png"]
 
-    profileMode:
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
 
-    homeInfoParams:
-        Title: > 
-            Hi, 
-            
-            - I'm Joey Yu
-        Content: >
-            A Pure and Applied Science student with an interest in Computer Science/Software Engineering.
-    socialIcons:
-        - name: github
-          url: "https://github.com/itsjoeoui"
-        - name: linkedin
-          url: "https://linkedin.com/in/itsjoeoui" 
-        - name: instagram
-          url: "https://instagram.com/itsjoeoui"
-        - name: snapchat
-          url: "https://snapchat.com/add/itsjoeoui"
-        - name: twitter
-          url: "https://twitter.com/itsjoeoui"
-        - name: telegram
-          url: "https://t.me/itsjoeoui"
-        - name: email
-          url: "mailto:joey@itsjoeoui.com"
+  homeInfoParams:
+    Title: >
+      Hi, 
 
-    label:
-        text: "Home"
-        icon: "https://avatars0.githubusercontent.com/u/25695219?v=4"
-        iconHeight: 35
+      - I'm Joey Yu
+    Content: >
+      Learning is fun. 一边偷懒一边努力变好 :P
+  socialIcons:
+    - name: github
+      url: "https://github.com/itsjoeoui"
+    - name: linkedin
+      url: "https://linkedin.com/in/itsjoeoui"
+    - name: email
+      url: "mailto:joey@itsjoeoui.com"
 
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
+  label:
+    text: "Home"
+    icon: "https://avatars0.githubusercontent.com/u/25695219?v=4"
+    iconHeight: 35
 
-    assets:
-        favicon: "https://avatars0.githubusercontent.com/u/25695219?v=4"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
 
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
+  assets:
+    favicon: "https://avatars0.githubusercontent.com/u/25695219?v=4"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
 
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
+  category: categories
+  tag: tags
+  series: series
 
 # markup:
 #     highlight:
@@ -133,25 +125,25 @@ taxonomies:
 #         style: monokai
 
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
+  vimeo:
+    disabled: false
+    simple: true
 
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
 
-    instagram:
-        disabled: false
-        simple: true
+  instagram:
+    disabled: false
+    simple: true
 
-    youtube:
-        disabled: false
-        privacyEnhanced: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
 
 services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
