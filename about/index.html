@@ -187,7 +187,7 @@
     <div class="post-description">
       About me
     </div>
-    <div class="post-meta">September 9, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Joey Yu
+    <div class="post-meta"><span title='2021-09-09 00:00:00 +0000 UTC'>September 9, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Joey Yu
 
 </div>
   </header> 
@@ -270,9 +270,11 @@
 
 <script>
     let menu = document.getElementById('menu')
-    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-    menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
