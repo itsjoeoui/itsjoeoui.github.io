@@ -46,7 +46,7 @@ params:
 
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
@@ -76,6 +76,8 @@ params:
       - I'm Joey Yu
     Content: >
       Learning is fun. 一边偷懒一边努力变好 :P
+      
+      - Currently looking for summer internships.
   socialIcons:
     - name: github
       url: "https://github.com/itsjoeoui"
