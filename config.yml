@@ -18,15 +18,19 @@ languages:
   en:
     languageName: "English"
     weight: 1
+    staticDir: static
 
     menu:
       main:
+        - name: Resume
+          url: Joey_Yu_Resume.pdf
+          weight: 1
         - name: Projects
           url: projects
-          weight: 1
+          weight: 2
         - name: About
           url: about
-          weight: 2
+          weight: 3
 
 outputs:
   home:
