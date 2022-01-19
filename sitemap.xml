@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://itsjoeoui.com/about/</loc>
-    <lastmod>2022-01-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://itsjoeoui.com/projects/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://itsjoeoui.com/about/</loc>
     <lastmod>2022-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://itsjoeoui.com/categories/</loc>
