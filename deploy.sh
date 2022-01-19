@@ -8,17 +8,13 @@ BASEDIR=$(pwd)
 
 echo "${BASEDIR}"
 
-cd source/
+cd "${BASEDIR}/source/"
 
 git submodule update --remote --merge
 
-hugo -t PaperMod -d "${BASEDIR}/master/"
+hugo -t PaperMod
 
-git add .
-
-git commit -s -m "[JoeyCI]: Update source"
-
-git push origin source
+rsync -avh --exclude "CNAME" --exclude ".git" public/ "${BASEDIR}/master" --delete
 
 cd "${BASEDIR}/master/"
 
@@ -33,3 +29,11 @@ fi
 git commit -s -m "$msg"
 
 git push origin master
+
+cd "${BASEDIR}/source/"
+
+git add .
+
+git commit -s -m "[JoeyCI]: Update source"
+
+git push origin source
