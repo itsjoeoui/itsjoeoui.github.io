@@ -1,8 +1,22 @@
 ---
 title: "My Projects"
 description: "Learning is fun."
-date: "2022-01-18"
+date: "2022-01-19"
 author: "Joey Yu"
+---
+
+## Astro: Star Formation
+
+McGill Physics Hackathon 2021 Project - Winner of the Astro Challenge.
+
+**GITHUB**: https://github.com/itsjoeoui/mcgill-phys-hack-2021
+
+**YOUTUBE**: https://www.youtube.com/watch?v=JG4PJDeQ5Hw
+
+**DEVPOST**: https://devpost.com/software/star-formation
+
+It simulates the formation of stars using Newton's second law of motion, and the simulation is built using Pygame with a custom-built Particle class in Python.
+
 ---
 
 ## TreeHugger - A Social App for Reconnecting With Nature (Prototype)
@@ -68,7 +82,7 @@ Note: This is a Heroku app, and it usually takes up to a minute to load up.
 
 ---
 
-## PixelExperience for OnePlus 5/5T and OnePlus 7 Pro
+## PixelExperience for OnePlus 5/5T
 
 **GITHUB**: https://github.com/PixelExperience
 
@@ -76,7 +90,10 @@ Note: This is a Heroku app, and it usually takes up to a minute to load up.
 
 PixelExperience is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, bootanimation).
 
-Our mission is to offer the maximum possible stability and security, along with essential and useful features for the proper functioning of the device.
+Contributions: 
+- Maintainer for the OnePlus 5/5T (Snapdragon 835 Mobile Platform).
+
+- Merging upstream changes from LineageOS and Linux Kernel Stable v.4.4.x tag.
 
 ---
 
