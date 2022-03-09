@@ -10,6 +10,8 @@ echo "${BASEDIR}"
 
 cd "${BASEDIR}/source/"
 
+rm -rf .DS_Store
+
 git submodule update --remote --merge
 
 hugo -t PaperMod
@@ -17,6 +19,8 @@ hugo -t PaperMod
 rsync -avh --exclude "CNAME" --exclude ".git" public/ "${BASEDIR}/master" --delete
 
 cd "${BASEDIR}/master/"
+
+rm -rf .DS_Store
 
 git checkout master
 
