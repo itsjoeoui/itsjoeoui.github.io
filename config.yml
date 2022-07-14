@@ -23,7 +23,7 @@ languages:
     menu:
       main:
         - name: Resume
-          url: Joey_Yu_Resume.pdf
+          url: Joey_Yu_Resume_Master.pdf
           weight: 1
         - name: Projects
           url: projects
