@@ -22,8 +22,6 @@ cd "${BASEDIR}/master/"
 
 rm -rf .DS_Store
 
-git checkout master
-
 git add .
 
 msg="[JoeyCI]: Deploy site $(date)"
