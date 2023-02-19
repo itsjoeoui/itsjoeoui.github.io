@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joey&#39;s Blog</title>
     <link>https://itsjoeoui.com/</link>
     <description>Recent content on Joey&#39;s Blog</description>
-    <image>
-      <url>https://itsjoeoui.com/papermod-cover.png</url>
-      <link>https://itsjoeoui.com/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://itsjoeoui.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Projects</title>
@@ -15,7 +11,14 @@
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://itsjoeoui.com/projects/</guid>
-      <description>Learning is fun.</description>
+      <description>Astro: Star Formation McGill Physics Hackathon 2021 Project - Winner of the Astro Challenge.
+GITHUB: https://github.com/itsjoeoui/mcgill-phys-hack-2021
+YOUTUBE: https://www.youtube.com/watch?v=JG4PJDeQ5Hw
+DEVPOST: https://devpost.com/software/star-formation
+It simulates the formation of stars using Newton&amp;rsquo;s second law of motion, and the simulation is built using Pygame with a custom-built Particle class in Python.
+TreeHugger - A Social App for Reconnecting With Nature (Prototype) GITHUB: https://github.com/space-treehugger
+ARTICLE: https://space.dawsoncollege.qc.ca/explorations/article/treehugger
+The app would allow users to leave virtual messages on specific locations of trees.</description>
     </item>
     
     <item>
@@ -24,7 +27,12 @@
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://itsjoeoui.com/about/</guid>
-      <description>About me</description>
+      <description>I&amp;rsquo;m currently seeking for software development summer 2022 internship :))
+Hello there! 👋 This is Joey, and I&amp;rsquo;m known around the internet as itsjoeoui.
+I&amp;rsquo;m a 2nd-year student at Dawson College, studying Pure and Applied Science.
+I used to work on Open-Source Projects. Now I am working at Ciena as an intern.
+Want to know what I am working on? Checkout the Projects page for more details.
+You can also find my education and work experiences under the Resume tab.</description>
     </item>
     
   </channel>

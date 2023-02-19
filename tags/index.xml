@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Joey&#39;s Blog</title>
     <link>https://itsjoeoui.com/tags/</link>
     <description>Recent content in Tags on Joey&#39;s Blog</description>
-    <image>
-      <url>https://itsjoeoui.com/papermod-cover.png</url>
-      <link>https://itsjoeoui.com/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://itsjoeoui.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
